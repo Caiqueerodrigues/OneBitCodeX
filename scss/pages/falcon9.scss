@@ -1,0 +1,40 @@
+.background-um {
+    background: black url(../../_imagens/falcon9/01.jpg) center no-repeat fixed;
+    background-size: cover;
+}
+.primeiro {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+
+    .titulo1 {
+        margin-top: 30%;
+        font-size: 90px;
+        font-weight: bold;
+    }
+}
+
+.background-dois {
+    background: black url(../../_imagens/falcon9/02.jpg) center no-repeat fixed;
+    background-size: cover;
+}
+.segundo {
+    width: 100vw;
+    height: 100vh;
+}
+.text-geral {
+    display: grid;
+    grid-template-columns: 30%;
+    grid-template-areas: "a b c";
+    gap: 30px;
+
+    #txt1 {
+        grid-area: "a";
+    }
+    #txt2 {
+        grid-area: "b";
+    }
+    #txt3 {
+        grid-area: "c";
+    }
+}
